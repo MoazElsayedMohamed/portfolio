@@ -23,10 +23,10 @@ function App() {
           <a href="#" className="hover:text-[#221999]">
             Home
           </a>
-          <a href="#" className="hover:text-[#221999]">
+          <a href="#projects" className="hover:text-[#221999]">
             Projects
           </a>
-          <a href="#" className="hover:text-[#221999]">
+          <a href="#about" className="hover:text-[#221999]">
             About
           </a>
         </div>
@@ -69,7 +69,7 @@ function App() {
           <div className="flex flex-col gap-7">
             <img
               src="/furniro.jpg"
-              alt="the wild oasis"
+              alt="furniro"
               className="rounded-2xl shadow-2xl"
             />
             <div className="ps-2 flex flex-col gap-4">
@@ -85,7 +85,7 @@ function App() {
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
                       src="/public/furniro.jpg"
-                      alt="frontend image"
+                      alt="furniro"
                       width="1365"
                       height="603"
                       className="pt-6"
@@ -160,7 +160,7 @@ function App() {
           <div className="flex flex-col gap-8">
             <img
               src="/jobify.jpg"
-              alt="the wild oasis"
+              alt="jobify"
               className="rounded-2xl shadow-2xl"
             />
             <div className="ps-2 flex flex-col gap-4">
@@ -176,7 +176,7 @@ function App() {
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
                       src="/public/jobify.jpg"
-                      alt="frontend image"
+                      alt="jobify"
                       width="1365"
                       height="603"
                       className="pt-6"
@@ -259,7 +259,7 @@ function App() {
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
                       src="/public/the-wild-oasis.jpg"
-                      alt="frontend image"
+                      alt="the wild oasis"
                       width="1365"
                       height="603"
                       className="pt-6"
@@ -330,7 +330,7 @@ function App() {
           <div className="flex flex-col gap-7">
             <img
               src="/world-wise.jpg"
-              alt="the wild oasis"
+              alt="world wise"
               className="rounded-2xl shadow-2xl"
             />
             <div className="ps-2 flex flex-col gap-4">
@@ -346,7 +346,7 @@ function App() {
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
                       src="/public/world-wise.jpg"
-                      alt="frontend image"
+                      alt="world wise"
                       width="1365"
                       height="603"
                       className="pt-6"
@@ -408,7 +408,7 @@ function App() {
           <div className="flex flex-col gap-7">
             <img
               src="/usePopcorn.png"
-              alt="the wild oasis"
+              alt="usePopcorn"
               className="rounded-2xl shadow-2xl"
             />
             <div className="ps-2 flex flex-col gap-4">
@@ -426,7 +426,7 @@ function App() {
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
                       src="/public/usePopcorn.png"
-                      alt="frontend image"
+                      alt="usePopcorn"
                       width="1365"
                       height="603"
                       className="pt-6"
@@ -482,7 +482,7 @@ function App() {
           <div className="flex flex-col gap-7">
             <img
               src="/nasa-mission-control.png"
-              alt="the wild oasis"
+              alt="nasa mission control"
               className="rounded-2xl shadow-2xl"
             />
             <div className="ps-2 flex flex-col gap-4">
@@ -500,7 +500,7 @@ function App() {
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
                       src="/public/nasa-mission-control.png"
-                      alt="frontend image"
+                      alt="nasa mission control"
                       width="1365"
                       height="603"
                       className="pt-6"
@@ -563,7 +563,7 @@ function App() {
           <div className="flex flex-col gap-7">
             <img
               src="/forkify.png"
-              alt="the wild oasis"
+              alt="forkify"
               className="rounded-2xl shadow-2xl"
             />
             <div className="ps-2 flex flex-col gap-4">
@@ -581,7 +581,7 @@ function App() {
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
                       src="/public/forkify.png"
-                      alt="frontend image"
+                      alt="forkify"
                       width="1365"
                       height="603"
                       className="pt-6"
@@ -645,7 +645,7 @@ function App() {
           <div className="flex flex-col gap-7">
             <img
               src="/mapty.png"
-              alt="the wild oasis"
+              alt="mapty"
               className="rounded-2xl shadow-2xl"
             />
             <div className="ps-2 flex flex-col gap-4">
@@ -661,7 +661,7 @@ function App() {
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
                       src="/public/mapty.png"
-                      alt="frontend image"
+                      alt="mapty"
                       width="1365"
                       height="603"
                       className="pt-6"
@@ -718,71 +718,9 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col gap-7">
-            <img
-              src="/public/natours.png"
-              alt="the wild oasis"
-              className="rounded-2xl shadow-2xl"
-            />
-            <div className="ps-2 flex flex-col gap-4">
-              <div className="flex gap-4 items-center">
-                <h3 className="text-2xl font-bold text-[#333232]">Natours</h3>
-                <Dialog>
-                  <DialogTrigger>
-                    <BsArrowUpRightCircle
-                      size={24}
-                      className="text-[#221999] cursor-pointer mt-1.5"
-                    />
-                  </DialogTrigger>
-                  <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
-                    <img
-                      src="/public/natours.png"
-                      alt="frontend image"
-                      width="1365"
-                      height="603"
-                      className="pt-6"
-                    />
-                    <DialogHeader>
-                      <div className="flex justify-between">
-                        <div className="flex flex-col gap-2">
-                          <DialogTitle>Natours</DialogTitle>
-                          <DialogDescription className="text-base">
-                            Landing Page for tours .
-                          </DialogDescription>
-                        </div>
-                        <a
-                          href="https://github.com/MoazElsayedMohamed/Natours-landing-page"
-                          target="_blank"
-                        >
-                          <FaGithub
-                            size={36}
-                            className="hover:text-[#221999] cursor-pointer"
-                          />
-                        </a>
-                      </div>
-                      <div className="flex flex-col gap-2">
-                        <h5 className="text-lg font-semibold">Tools</h5>
-                        <ul className="list-disc ps-5 grid grid-cols-3 gap-x-8 gap-y-2 text-[#666060]">
-                          <li>Html</li>
-                          <li>CSS</li>
-                          <li>Sass</li>
-                        </ul>
-                      </div>
-                    </DialogHeader>
-                    <DialogFooter>
-                      <DialogClose asChild></DialogClose>
-                    </DialogFooter>
-                  </DialogContent>
-                </Dialog>
-              </div>
-              <p className="text-lg font-semibold text-[#666060]">
-                Landing Page for tours .
-              </p>
-            </div>
-          </div>
         </div>
       </section>
-      <section className="px-8 mb-20 lg:mb-40">
+      <section className="px-8 mb-20 lg:mb-40" id="about">
         <h1 className="lg:text-6xl text-4xl text-[#171516] font-bold mb-8">
           Experience<span className="text-[#221999]">.</span>
         </h1>
