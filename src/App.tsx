@@ -19,7 +19,7 @@ function App() {
         <div className="w-32">
           <img src="/logo.jpg" className="" alt="" />
         </div>
-        <div className="flex gap-10 font-medium text-lg pr-20">
+        <div className="flex gap-10 font-medium text-lg pr-20 items-center">
           <a href="#" className="hover:text-[#221999]">
             Home
           </a>
@@ -28,6 +28,13 @@ function App() {
           </a>
           <a href="#about" className="hover:text-[#221999]">
             About
+          </a>
+          <a
+            href="/public/Moaz-Elsayed-Resume.pdf"
+            download="Moaz-Elsayed-Resume.pdf"
+            className="rounded-2xl border p-3 hover:bg-[#4e525a] hover:text-white border-[#4e525a] text-[#4e525a]"
+          >
+            Download CV
           </a>
         </div>
       </section>
@@ -46,7 +53,10 @@ function App() {
             </p>
             <div className="flex gap-4">
               <a href="#projects">
-                <button className="py-2 px-4 hover:bg-[#4e525a] hover:text-white border-[#4e525a]  cursor-pointer rounded-lg text-base font-medium border">
+                <button
+                  className="py-2 px-4 hover:bg-[#4e525a] hover:text-white border-[#4e525a]
+                  cursor-pointer rounded-lg text-base font-medium border"
+                >
                   Browse Projects
                 </button>
               </a>
