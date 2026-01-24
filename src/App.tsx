@@ -13,14 +13,6 @@ import {
 } from "./components/ui/dialog";
 
 function App() {
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "/public/Moaz-Elsayed-Resume.pdf";
-    link.download = "Moaz-Elsayed-Resume.pdf";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
   return (
     <main>
       <section className="flex justify-between items-center p-4 lg:mb-20">
@@ -37,12 +29,13 @@ function App() {
           <a href="#about" className="hover:text-[#221999]">
             About
           </a>
-          <button
-            className="cursor-pointer rounded-2xl border p-3 hover:bg-[#4e525a] hover:text-white border-[#4e525a] text-[#4e525a]"
-            onClick={handleDownload}
+          <a
+            href="https://drive.google.com/file/d/10oY6YSlJ1WBdA0vlvGZYI3QCeaimMJug/view?usp=sharing"
+            target="_blank"
+            className="rounded-2xl border p-3 hover:bg-[#4e525a] hover:text-white border-[#4e525a]"
           >
             Download CV
-          </button>
+          </a>
         </div>
       </section>
       <section className="px-8 lg:flex lg:justify-between text-[#4e525a] font-normal lg:mb-40 mb-20">
