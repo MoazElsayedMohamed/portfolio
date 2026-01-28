@@ -38,7 +38,7 @@ function App() {
           </a>
         </div>
       </section>
-      <section className="px-8 lg:flex lg:justify-between text-[#4e525a] font-normal lg:mb-40 mb-20">
+      <section className="px-8 lg:flex lg:justify-between text-[#4e525a] font-normal lg:mb-40 mb-20 text-center">
         <div className="flex-1 flex flex-col gap-6 mt-6">
           <div className="flex flex-col gap-4">
             <h3 className="lg:text-2xl text-xl">Hey,I'm Moaz 👋</h3>
@@ -51,7 +51,7 @@ function App() {
               I'm a frontend developer based in Egypt, I'll help you build
               beautiful websites your users will love.
             </p>
-            <div className="flex gap-4">
+            <div className="flex justify-center">
               <a href="#projects">
                 <button
                   className="py-2 px-4 hover:bg-[#4e525a] hover:text-white border-[#4e525a]
@@ -62,13 +62,6 @@ function App() {
               </a>
             </div>
           </div>
-        </div>
-        <div className=" flex-1 self-right flex justify-end">
-          <img
-            src="/image-2.jpg"
-            className="rounded-full object-cover p-10 border w-3/4 hidden lg:block"
-            alt=""
-          />
         </div>
       </section>
       <section className="px-8 mb-20 lg:mb-40" id="projects">
@@ -881,14 +874,21 @@ function App() {
             Created by Moaz Elsayed &copy; {new Date().getFullYear()} .
           </p>
           <div className="flex gap-4">
-            <FaLinkedin
-              size={32}
-              className="hover:text-[#221999] cursor-pointer"
-            />
-            <FaGithub
-              size={32}
-              className="hover:text-[#221999] cursor-pointer"
-            />
+            <a
+              href="https://www.linkedin.com/in/moaz-elsayed23/"
+              target="_blank"
+            >
+              <FaLinkedin
+                size={32}
+                className="hover:text-[#221999] cursor-pointer"
+              />
+            </a>
+            <a href="https://github.com/MoazElsayedMohamed" target="_blank">
+              <FaGithub
+                size={32}
+                className="hover:text-[#221999] cursor-pointer"
+              />
+            </a>
           </div>
         </div>
       </footer>
