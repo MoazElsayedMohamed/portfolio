@@ -17,9 +17,9 @@ function App() {
     <main>
       <section className="flex justify-between items-center p-4 lg:mb-20">
         <div className="w-32">
-          <img src="/logo.jpg" className="" alt="" />
+          <img src="/logo.jpg" className="lg:block hidden" alt="" />
         </div>
-        <div className="flex gap-10 font-medium text-lg pr-20 items-center">
+        <div className="flex gap-10 font-medium text-sm lg:text-lg pr-20 items-center">
           <a href="#" className="hover:text-[#221999]">
             Home
           </a>
