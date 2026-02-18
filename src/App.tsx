@@ -71,6 +71,91 @@ function App() {
         <div className="grid lg:grid-cols-2 gap-12 ">
           <div className="flex flex-col gap-7">
             <img
+              src="/dev-event.png"
+              alt="Dev Event"
+              className="rounded-2xl shadow-2xl"
+            />
+            <div className="ps-2 flex flex-col gap-4">
+              <div className="flex gap-4 items-center">
+                <h3 className="text-2xl font-bold text-[#333232]">DevEvent</h3>
+                <Dialog>
+                  <DialogTrigger>
+                    <BsArrowUpRightCircle
+                      size={24}
+                      className="text-[#221999] cursor-pointer mt-1.5"
+                    />
+                  </DialogTrigger>
+                  <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
+                    <img
+                      src="/public/dev-event.png"
+                      alt="Dev Event"
+                      width="1365"
+                      height="603"
+                      className="pt-6"
+                    />
+                    <DialogHeader>
+                      <div className="flex justify-between">
+                        <div className="flex flex-col gap-2">
+                          <DialogTitle>DevEvent</DialogTitle>
+                          <DialogDescription className="text-base">
+                            DevEvent brings together passionate developers, tech
+                            enthusiasts, and industry leaders to share
+                            knowledge, foster innovation, and create meaningful
+                            connections in the ever-evolving world of
+                            technology.
+                          </DialogDescription>
+                        </div>
+                        <a
+                          href="https://github.com/MoazElsayedMohamed/DevEvent"
+                          target="_blank"
+                        >
+                          <FaGithub
+                            size={36}
+                            className="hover:text-[#221999] cursor-pointer"
+                          />
+                        </a>
+                      </div>
+                      <div className="flex flex-col gap-2">
+                        <h5 className="text-lg font-semibold">Features</h5>
+                        <ul className="list-disc ps-5 grid lg:grid-cols-2 gap-x-8 gap-y-2 text-[#666060]">
+                          <li>Featured Events (homepage/listing)</li>
+                          <li>Event Inner Page (individual event details)</li>
+                          <li>About Page</li>
+                          <li>
+                            Event cards with image, title, date, location, and
+                            brief description
+                          </li>
+                          <li>
+                            Image optimization with Cloudinary transformations
+                          </li>
+                        </ul>
+                        <h5 className="text-lg font-semibold">Tools</h5>
+                        <ul className="list-disc ps-5 grid grid-cols-3 gap-x-8 gap-y-2 text-[#666060]">
+                          <li>html</li>
+                          <li>tailwindcss</li>
+                          <li>NextJs</li>
+                          <li>cloudinary</li>
+                          <li>MongoDB</li>
+                          <li>ShadcnUI</li>
+                          <li>Responsive Design</li>
+                        </ul>
+                      </div>
+                    </DialogHeader>
+
+                    <DialogFooter>
+                      <DialogClose asChild></DialogClose>
+                    </DialogFooter>
+                  </DialogContent>
+                </Dialog>
+              </div>
+              <p className="text-lg font-semibold text-[#666060]">
+                DevEvent brings together passionate developers, tech
+                enthusiasts, and industry leaders to share knowledge.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-col gap-7">
+            <img
               src="/furniro.jpg"
               alt="furniro"
               className="rounded-2xl shadow-2xl"
