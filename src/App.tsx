@@ -87,7 +87,7 @@ function App() {
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
-                      src="/public/dev-event.png"
+                      src="/dev-event.png"
                       alt="Dev Event"
                       width="1365"
                       height="603"
@@ -157,7 +157,7 @@ function App() {
           <div className="flex flex-col gap-7">
             <img
               src="/codertori.png"
-              alt="Dev Event"
+              alt="Codertori"
               className="rounded-2xl shadow-2xl"
             />
             <div className="ps-2 flex flex-col gap-4">
@@ -172,8 +172,8 @@ function App() {
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
-                      src="/public/codertori.png"
-                      alt="Dev Event"
+                      src="/codertori.png"
+                      alt="Codertori"
                       width="1365"
                       height="603"
                       className="pt-6"
@@ -264,7 +264,7 @@ function App() {
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
-                      src="/public/furniro.jpg"
+                      src="/furniro.jpg"
                       alt="furniro"
                       width="1365"
                       height="603"
@@ -355,7 +355,7 @@ function App() {
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
-                      src="/public/jobify.jpg"
+                      src="/jobify.jpg"
                       alt="jobify"
                       width="1365"
                       height="603"
@@ -438,7 +438,7 @@ function App() {
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
-                      src="/public/the-wild-oasis.jpg"
+                      src="/the-wild-oasis.jpg"
                       alt="the wild oasis"
                       width="1365"
                       height="603"
@@ -525,7 +525,7 @@ function App() {
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
-                      src="/public/world-wise.jpg"
+                      src="/world-wise.jpg"
                       alt="world wise"
                       width="1365"
                       height="603"
@@ -605,7 +605,7 @@ function App() {
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
-                      src="/public/usePopcorn.png"
+                      src="/usePopcorn.png"
                       alt="usePopcorn"
                       width="1365"
                       height="603"
@@ -679,7 +679,7 @@ function App() {
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
-                      src="/public/nasa-mission-control.png"
+                      src="/nasa-mission-control.png"
                       alt="nasa mission control"
                       width="1365"
                       height="603"
@@ -760,7 +760,7 @@ function App() {
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
-                      src="/public/forkify.png"
+                      src="/forkify.png"
                       alt="forkify"
                       width="1365"
                       height="603"
@@ -840,7 +840,7 @@ function App() {
                   </DialogTrigger>
                   <DialogContent className="sm:max-w-[900px] max-h-[90vh] overflow-y-auto">
                     <img
-                      src="/public/mapty.png"
+                      src="/mapty.png"
                       alt="mapty"
                       width="1365"
                       height="603"
